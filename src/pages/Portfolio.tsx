@@ -622,7 +622,7 @@ const Portfolio = () => {
           </div>
 
           {/* Project Categories */}
-          <div className="flex flex-wrap justify-center gap-4 mb-12">
+          {/* <div className="flex flex-wrap justify-center gap-4 mb-12">
             <button className="px-6 py-2 bg-primary text-primary-foreground rounded-full font-medium">
               All Projects
             </button>
@@ -635,7 +635,7 @@ const Portfolio = () => {
             <button className="px-6 py-2 bg-muted hover:bg-primary hover:text-primary-foreground rounded-full font-medium transition-colors">
               E-commerce
             </button>
-          </div>
+          </div> */}
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {projects.map((project, index) => (
