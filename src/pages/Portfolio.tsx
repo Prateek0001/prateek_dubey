@@ -639,7 +639,7 @@ const Portfolio = () => {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {projects.map((project, index) => (
-              <Card key={index} className="group overflow-hidden border-0 shadow-lg hover:shadow-2xl transition-all duration-500">
+              <Card key={index} className="group overflow-hidden border-0 shadow-lg hover:shadow-2xl transition-all duration-500 flex flex-col h-full">
                 <div className="relative overflow-hidden bg-gradient-to-br from-primary/10 to-accent/10 p-12">
                   <div className="text-6xl text-center mb-4 group-hover:scale-110 transition-transform duration-300">
                     {project.image}
@@ -648,7 +648,7 @@ const Portfolio = () => {
                     <ExternalLink className="w-4 h-4 text-white" />
                   </div>
                 </div>
-                <CardContent className="p-6">
+                <CardContent className="p-6 flex flex-col h-full">
                   <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">
                     {project.title}
                   </h3>
@@ -658,15 +658,15 @@ const Portfolio = () => {
                   <div className="flex flex-wrap gap-2 mb-6">
                     {project.tech.map((tech, techIndex) => (
                       <span key={tech} className={`px-3 py-1 rounded-full text-xs font-medium ${
-                        techIndex === 0 ? 'bg-primary/20 text-primary' : 
-                        techIndex === 1 ? 'bg-accent/20 text-accent' : 
+                        techIndex === 0 ? 'bg-primary/20 text-primary' :
+                        techIndex === 1 ? 'bg-accent/20 text-accent' :
                         'bg-muted text-muted-foreground'
                       }`}>
                         {tech}
                       </span>
                     ))}
                   </div>
-                  <div className="flex gap-3">
+                  <div className="mt-auto">
                     <Button
                       variant="outline"
                       size="sm"
