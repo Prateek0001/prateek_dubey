@@ -104,21 +104,21 @@ const Portfolio = () => {
       title: "AI-Powered Voice Assistant",
       description: "Multimodal assistant with speech-to-text, text-to-speech, and image generation using Flutter and Gemini 2.5 Pro.",
       tech: ["Flutter", "Gemini 2.5", "AI", "Speech Recognition"],
-      github: "#",
+      github: "https://github.com/Prateek0001/AI-Powered-Voice-Assistant",
       image: "🤖"
     },
     {
       title: "E-commerce App",
       description: "Full-featured e-commerce app with JWT authentication, WooCommerce integration, and scalable state management.",
       tech: ["Flutter", "Provider", "WooCommerce", "JWT"],
-      github: "#",
+      github: "https://github.com/Prateek0001/woocommerse_app",
       image: "🛒"
     },
     {
       title: "GakudoAI - Career Guidance",
       description: "AI-driven career advice platform with Razorpay integration, session booking, and personalized recommendations.",
       tech: ["Flutter", "Bloc", "AI", "Razorpay"],
-      github: "#",
+      github: "https://github.com/Prateek0001/GakudoAi",
       image: "🎓"
     }
   ];
@@ -667,7 +667,12 @@ const Portfolio = () => {
                     ))}
                   </div>
                   <div className="flex gap-3">
-                    <Button variant="outline" size="sm" className="w-full group-hover:border-primary group-hover:text-primary">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="w-full group-hover:border-primary group-hover:text-primary"
+                      onClick={() => window.open(project.github, '_blank')}
+                    >
                       <Github className="w-4 h-4 mr-2" />
                       View Code
                     </Button>
