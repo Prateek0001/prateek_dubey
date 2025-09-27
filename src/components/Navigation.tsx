@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Download } from "lucide-react";
+import prateekCV from "@/assets/Prateek-Dubey-9080882637.pdf";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,6 +12,15 @@ const Navigation = () => {
       element.scrollIntoView({ behavior: "smooth" });
       setIsOpen(false);
     }
+  };
+
+  const downloadCV = () => {
+    const link = document.createElement('a');
+    link.href = prateekCV;
+    link.download = 'Prateek-Dubey-CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
@@ -58,7 +68,11 @@ const Navigation = () => {
 
           {/* Download CV Button */}
           <div className="hidden md:block">
-            <Button className="bg-accent hover:bg-accent-light text-accent-foreground rounded-full px-6">
+            <Button
+              className="bg-accent hover:bg-accent-light text-accent-foreground rounded-full px-6"
+              onClick={downloadCV}
+            >
+              <Download className="mr-2 w-4 h-4" />
               Download CV
             </Button>
           </div>
@@ -108,7 +122,11 @@ const Navigation = () => {
               >
                 Contact
               </button>
-              <Button className="bg-accent hover:bg-accent-light text-accent-foreground rounded-full px-6 w-fit mt-4">
+              <Button
+                className="bg-accent hover:bg-accent-light text-accent-foreground rounded-full px-6 w-fit mt-4"
+                onClick={downloadCV}
+              >
+                <Download className="mr-2 w-4 h-4" />
                 Download CV
               </Button>
             </div>

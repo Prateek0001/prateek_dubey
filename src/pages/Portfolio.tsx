@@ -25,6 +25,7 @@ import {
   ArrowRight
 } from "lucide-react";
 import prateekProfile from "@/assets/prateek-profile.jpeg";
+import prateekCV from "@/assets/Prateek-Dubey-9080882637.pdf";
 
 const Portfolio = () => {
   const [formData, setFormData] = useState({
@@ -47,6 +48,15 @@ const Portfolio = () => {
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
+  };
+
+  const downloadCV = () => {
+    const link = document.createElement('a');
+    link.href = prateekCV;
+    link.download = 'Prateek-Dubey-CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   const skills = [
@@ -127,12 +137,13 @@ const Portfolio = () => {
                   Hire Me
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
-                <Button 
-                  variant="outline" 
+                <Button
+                  variant="outline"
                   className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground rounded-full px-8 py-6 text-lg font-semibold"
+                  onClick={downloadCV}
                 >
-                  <Play className="mr-2 w-5 h-5" />
-                  View Projects
+                  <Download className="mr-2 w-5 h-5" />
+                  Download CV
                 </Button>
               </div>
 
@@ -626,12 +637,9 @@ const Portfolio = () => {
                     ))}
                   </div>
                   <div className="flex gap-3">
-                    <Button variant="outline" size="sm" className="flex-1 group-hover:border-primary group-hover:text-primary">
+                    <Button variant="outline" size="sm" className="w-full group-hover:border-primary group-hover:text-primary">
                       <Github className="w-4 h-4 mr-2" />
-                      Code
-                    </Button>
-                    <Button size="sm" className="flex-1 bg-primary hover:bg-primary-dark">
-                      Live Demo
+                      View Code
                     </Button>
                   </div>
                 </CardContent>
