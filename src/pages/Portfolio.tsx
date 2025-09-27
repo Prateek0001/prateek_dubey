@@ -160,9 +160,9 @@ const Portfolio = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 mb-12">
-                <Button 
+                <Button
                   className="bg-accent hover:bg-accent-light text-accent-foreground rounded-full px-8 py-6 text-lg font-semibold"
-                  onClick={() => scrollToSection("projects")}
+                  onClick={() => scrollToSection("contact")}
                 >
                   Hire Me
                   <ArrowRight className="ml-2 w-5 h-5" />
