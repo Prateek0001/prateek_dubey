@@ -663,10 +663,10 @@ const Portfolio = () => {
                 </p>
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white font-semibold">
-                    S
+                    P
                   </div>
                   <div>
-                    <div className="font-semibold">Sarah Johnson</div>
+                    <div className="font-semibold">Praveen Kumar</div>
                     <div className="text-sm text-muted-foreground">Product Manager</div>
                   </div>
                 </div>
@@ -687,10 +687,10 @@ const Portfolio = () => {
                 </p>
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-accent rounded-full flex items-center justify-center text-white font-semibold">
-                    M
+                    T
                   </div>
                   <div>
-                    <div className="font-semibold">Michael Chen</div>
+                    <div className="font-semibold">Tarun Sachdeva</div>
                     <div className="text-sm text-muted-foreground">Tech Lead</div>
                   </div>
                 </div>
@@ -711,10 +711,10 @@ const Portfolio = () => {
                 </p>
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white font-semibold">
-                    A
+                    H
                   </div>
                   <div>
-                    <div className="font-semibold">Ananya Patel</div>
+                    <div className="font-semibold">Himanshu Deshwal</div>
                     <div className="text-sm text-muted-foreground">Founder & CEO</div>
                   </div>
                 </div>
