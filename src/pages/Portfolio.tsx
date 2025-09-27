@@ -24,7 +24,7 @@ import {
   Play,
   ArrowRight
 } from "lucide-react";
-import prateekProfile from "@/assets/prateek-profile.jpg";
+import prateekProfile from "@/assets/prateek-profile.jpeg";
 
 const Portfolio = () => {
   const [formData, setFormData] = useState({
