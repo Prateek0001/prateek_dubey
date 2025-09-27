@@ -900,13 +900,13 @@ const Portfolio = () => {
       <footer className="py-12 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between">
-            <div className="text-2xl font-bold mb-4 md:mb-0">Prateek</div>
+            <div className="text-2xl font-bold mb-4 md:mb-0">Prateek Dubey</div>
             <div className="text-center md:text-right">
               <p className="text-primary-foreground/80">
-                © 2025 Prateek Dubey. Built with React, TypeScript & Tailwind CSS.
+                © 2025 Prateek Dubey. All rights reserved.
               </p>
               <p className="text-primary-foreground/60 text-sm mt-1">
-                Designed with ❤️ in Mumbai, India
+                Let's connect on LinkedIn 
               </p>
             </div>
           </div>
