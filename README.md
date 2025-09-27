@@ -1,73 +1,158 @@
-# Welcome to your Lovable project
+# Prateek Dubey - Portfolio Website
 
-## Project info
+A modern, responsive portfolio website showcasing my expertise as a Frontend Developer specializing in Flutter, Android development, and mobile app solutions.
 
-**URL**: https://lovable.dev/projects/4c64c896-75b8-48c8-89de-2f3d19d6b3e9
+## 🚀 Live Demo
 
-## How can I edit this code?
+[View Portfolio](https://prateekdubey.dev)
 
-There are several ways of editing your application.
+## 👨‍💻 About
 
-**Use Lovable**
+This portfolio showcases:
+- 4+ years of experience in mobile app development
+- Expertise in Flutter, Android, Kotlin, and Java
+- DevOps & CI/CD implementation skills
+- Real-world project implementations
+- Professional experience and achievements
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4c64c896-75b8-48c8-89de-2f3d19d6b3e9) and start prompting.
+## ✨ Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Responsive Design** - Optimized for all devices and screen sizes
+- **Modern UI/UX** - Clean, professional design with smooth animations
+- **Contact Form** - Integrated with EmailJS for direct communication
+- **Downloadable CV** - One-click CV download functionality
+- **Project Showcase** - Live GitHub repository links
+- **Performance Optimized** - Fast loading with modern web technologies
+- **SEO Optimized** - Meta tags, structured data, and semantic HTML
 
-**Use your preferred IDE**
+## 🛠️ Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Frontend Framework:** React 18 with TypeScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **UI Components:** shadcn/ui
+- **Icons:** Lucide React
+- **Email Service:** EmailJS
+- **Deployment:** Vercel/Netlify ready
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🏗️ Project Structure
 
-Follow these steps:
+```
+src/
+├── components/
+│   ├── ui/                 # Reusable UI components
+│   └── Navigation.tsx      # Main navigation component
+├── pages/
+│   ├── Portfolio.tsx       # Main portfolio page
+│   └── NotFound.tsx        # 404 page
+├── assets/
+│   ├── prateek-profile.jpeg # Profile image
+│   └── Prateek-Dubey-9080882637.pdf # CV file
+├── lib/
+│   └── utils.ts           # Utility functions
+└── hooks/
+    └── use-toast.ts       # Toast notification hook
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🚀 Getting Started
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Prerequisites
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Node.js (v18 or higher)
+- npm or yarn
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Prateek0001/prateek_dubey.git
+cd prateek_dubey
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open [http://localhost:8080](http://localhost:8080) in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📧 Contact Form Setup
 
-**Use GitHub Codespaces**
+The contact form uses EmailJS for email delivery. To set up:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Create an account at [EmailJS](https://www.emailjs.com/)
+2. Update the configuration in `src/pages/Portfolio.tsx`:
+   - Service ID: 
+   - Template ID: 
+   - Public Key: 
 
-## What technologies are used for this project?
+## 🎨 Customization
 
-This project is built with:
+### Colors & Theming
+- Primary colors are defined in `tailwind.config.ts`
+- Component styles use CSS variables for easy theming
+- Dark/light mode ready (can be extended)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Content Updates
+- Update personal information in `src/pages/Portfolio.tsx`
+- Replace profile image in `src/assets/`
+- Update CV file in `src/assets/`
+- Modify project data in the `projects` array
 
-## How can I deploy this project?
+## 📱 Projects Featured
 
-Simply open [Lovable](https://lovable.dev/projects/4c64c896-75b8-48c8-89de-2f3d19d6b3e9) and click on Share -> Publish.
+1. **AI-Powered Voice Assistant** - Multimodal assistant with speech-to-text and AI capabilities
+2. **E-commerce App** - Full-featured app with JWT authentication and WooCommerce integration
+3. **GakudoAI** - AI-driven career guidance platform with payment integration
 
-## Can I connect a custom domain to my Lovable project?
+## 🔧 Available Scripts
 
-Yes, you can!
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📈 Performance Features
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- Lazy loading for images
+- Optimized bundle size
+- Fast refresh during development
+- Production-ready optimizations
+
+## 📄 SEO & Meta Tags
+
+- Complete Open Graph meta tags
+- Twitter Card support
+- JSON-LD structured data
+- Semantic HTML structure
+- Optimized meta descriptions
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Contact
+
+**Prateek Dubey**
+- Email: prateekofficial0001@gmail.com
+- Phone: +91 9080882637
+- LinkedIn: [prateek-dubey-0001](https://linkedin.com/in/prateek-dubey-0001)
+- GitHub: [Prateek0001](https://github.com/Prateek0001)
+- Location: Uttar Pradesh, India
+
+---
+
+⭐ **Star this repository if you found it helpful!**
