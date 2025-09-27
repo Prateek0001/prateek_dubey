@@ -517,9 +517,19 @@ const Portfolio = () => {
                       </ul>
                     </div>
                     
-                    <div className="flex items-center gap-2 bg-accent/10 px-3 py-1 rounded-full w-fit">
-                      <MapPin className="w-4 h-4 text-accent" />
-                      <span className="font-medium">Delhi</span>
+                    <div className="flex flex-wrap items-center gap-4 text-sm">
+                      <div className="flex items-center gap-2 bg-accent/10 px-3 py-1 rounded-full">
+                        <Download className="w-4 h-4 text-accent" />
+                        <span className="font-medium">10,000+ downloads</span>
+                      </div>
+                      <div className="flex items-center gap-2 bg-primary/10 px-3 py-1 rounded-full">
+                        <Star className="w-4 h-4 text-primary" />
+                        <span className="font-medium">4.5+ rating</span>
+                      </div>
+                      <div className="flex items-center gap-2 bg-accent/10 px-3 py-1 rounded-full">
+                        <MapPin className="w-4 h-4 text-accent" />
+                        <span className="font-medium">Delhi</span>
+                      </div>
                     </div>
                   </CardContent>
                 </Card>
@@ -543,13 +553,6 @@ const Portfolio = () => {
                       <div className="flex-1">
                         <div className="flex justify-between items-center mb-2">
                           <h3 className="font-semibold">{skill.name}</h3>
-                          <span className="text-sm text-muted-foreground">{skill.level}%</span>
-                        </div>
-                        <div className="w-full bg-muted rounded-full h-2">
-                          <div 
-                            className="bg-gradient-to-r from-primary to-primary-glow h-2 rounded-full transition-all duration-1000"
-                            style={{ width: `${skill.level}%` }}
-                          ></div>
                         </div>
                       </div>
                     </div>
