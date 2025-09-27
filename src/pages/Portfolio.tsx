@@ -124,7 +124,7 @@ const Portfolio = () => {
                   className="bg-accent hover:bg-accent-light text-accent-foreground rounded-full px-8 py-6 text-lg font-semibold"
                   onClick={() => scrollToSection("projects")}
                 >
-                  Get Started
+                  Hire Me
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
                 <Button 
@@ -132,7 +132,7 @@ const Portfolio = () => {
                   className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground rounded-full px-8 py-6 text-lg font-semibold"
                 >
                   <Play className="mr-2 w-5 h-5" />
-                  Watch Intro
+                  View Projects
                 </Button>
               </div>
 
@@ -143,12 +143,12 @@ const Portfolio = () => {
                   <div className="text-sm text-muted-foreground">Years Experience</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary">10k+</div>
-                  <div className="text-sm text-muted-foreground">App Downloads</div>
+                  <div className="text-3xl font-bold text-primary">15+</div>
+                  <div className="text-sm text-muted-foreground">Projects</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary">4.9</div>
-                  <div className="text-sm text-muted-foreground">Rating</div>
+                  <div className="text-3xl font-bold text-primary">10k+</div>
+                  <div className="text-sm text-muted-foreground">Users Impacted</div>
                 </div>
               </div>
 
@@ -290,7 +290,7 @@ const Portfolio = () => {
                 {/* Floating Stats */}
                 <div className="absolute -top-4 -right-4 bg-white rounded-lg p-4 shadow-lg">
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-primary">50+</div>
+                    <div className="text-2xl font-bold text-primary">15+</div>
                     <div className="text-xs text-muted-foreground">Complete Project</div>
                   </div>
                 </div>
