@@ -471,6 +471,26 @@ const Portfolio = () => {
                       <div>
                         <h3 className="text-2xl font-bold mb-2">Lead Frontend Engineer</h3>
                         <p className="text-primary font-semibold text-lg">TradeBook Consultancy Services</p>
+                        <div className="flex gap-4 mt-2">
+                          <a
+                            href="https://trackk.in/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-sm text-blue-600 hover:text-blue-800 transition-colors flex items-center gap-1"
+                          >
+                            <ExternalLink className="w-3 h-3" />
+                            Website
+                          </a>
+                          <a
+                            href="https://play.google.com/store/apps/details?id=com.we3.tradebook.app"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-sm text-green-600 hover:text-green-800 transition-colors flex items-center gap-1"
+                          >
+                            <Play className="w-3 h-3" />
+                            Play Store
+                          </a>
+                        </div>
                       </div>
                       <div className="flex items-center gap-2 text-muted-foreground mt-2 lg:mt-0">
                         <Calendar className="w-4 h-4" />
@@ -528,6 +548,26 @@ const Portfolio = () => {
                       <div>
                         <h3 className="text-2xl font-bold mb-2">Software Engineer</h3>
                         <p className="text-accent font-semibold text-lg">Raxa Health Information Services</p>
+                        <div className="flex gap-4 mt-2">
+                          <a
+                            href="https://www.raxa.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-sm text-blue-600 hover:text-blue-800 transition-colors flex items-center gap-1"
+                          >
+                            <ExternalLink className="w-3 h-3" />
+                            Website
+                          </a>
+                          <a
+                            href="https://play.google.com/store/apps/details?id=com.raxa.EMR"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-sm text-green-600 hover:text-green-800 transition-colors flex items-center gap-1"
+                          >
+                            <Play className="w-3 h-3" />
+                            Play Store
+                          </a>
+                        </div>
                       </div>
                       <div className="flex items-center gap-2 text-muted-foreground mt-2 lg:mt-0">
                         <Calendar className="w-4 h-4" />
@@ -944,7 +984,7 @@ const Portfolio = () => {
       <footer className="py-12 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between">
-            <div className="text-2xl font-bold mb-4 md:mb-0">Prateek Dubey</div>
+            <div className="text-2xl font-bold mb-4 md:mb-0">Prateek</div>
             <div className="text-center md:text-right">
               <p className="text-primary-foreground/80">
                 © 2025 Prateek Dubey. All rights reserved.
